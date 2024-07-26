@@ -567,6 +567,8 @@ namespace PttCrawler
                 this.FormBorderStyle = FormBorderStyle.None;
                 this.Location = new Point(0, Screen.PrimaryScreen.Bounds.Height - 180);
                 this.Width = Screen.PrimaryScreen.Bounds.Width;
+                if (this.Width > 2220)
+                    this.Width = 2220;
                 this.Height = 180;
             }
             else
